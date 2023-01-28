@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek's Personal Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon"  href="images/favicon.ico"> 
+
+    <script>
+        function myFunction() {
+            document.getElementById("form").submit();
+
+            window.alert("Form has been submitted");
+
+            document.getElementById("form").reset();
+        }
+    </script>
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+    <div class="user">
+        <picture>
+            <source media="(min-width:200px)" srcset="images/Abhishek_Nair_Pic.png">
+          <img src="images/Abhishek_Nair_Pic.png" alt="Abhishek_Nair_Pic" style="width:auto;">
+        </picture> 
+        <h3 class="name">Abhishek Nair</h3>
+        <p class="post">Graduate Student at Northeastern University, Boston </p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certification">Certification</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+<!-- header section ends -->
+
+<!-- content section starts  -->
+
+<div class="container">
+
+    <section class="home" id="home">
+
+        <h2 class="post">Hey, I'm <span>ABHISHEK NAIR</span></h2>
+        <h3 class="post">I am a <span class="typing-text">Back-end developer</span> with experience of <span class="typing-text">4 years</span> as a Software Engineer at <span class="typing-text">Accenture</span>. 
+            I am skilled in <span class="typing-text">Java, Microservices, Rest APIs, and Spring Boot.</span></h3>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"><img src="images/icons8-facebook-48.png" alt="facebook"></a>
+            <a href="#" class="fab fa-twitter"><img src="images/icons8-twitter-48.png"></a>
+            <a href="#" class="fab fa-instagram"><img src="images/icons8-instagram-48.png"></a>
+            <a href="#" class="fab fa-linkedin"><img src="images/icons8-linkedin-48.png"></a>
+            <a href="#" class="fab fa-github"><img src="images/icons8-github-48.png"></a>
+        </div>
+
+    </section>
+
+    <!-- about section  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading">About Me</h1>
+
+        <hr>    
+
+        <div class="content">
+            <ul>
+                <li>I am an experienced professional Software Engineer with an experience of about 4 years.</li>
+                <li>Knowledge of multiple domains like Freight and Logistics and Retail Domain</li>
+                <li>Mentored, and guided a team of 4 juniors to scale up technical and domain knowledge of the project</li>
+                <li>Spearheaded proof of concept for some complex use cases including Eureka, TCP communication using Camel Netty, GraphQL
+                  client, etc. leading to quicker development and re-use of code across teams and saving up to 5 man working days.</li>
+                <li>Experienced in implementing complex use-cases around distributed event processing systems such as Kafka streams to aggregate 
+                  messages based on the windowing time concept, to not overload the target system and thereby improve efficiency by 60%.</li>
+                <li>Skilled in Java, Spring Boot, Microservices, Apache Kafka, Apache Camel, HTML5, CSS3</li>
+                <li>Currently I am pursuing my Masters in Information Systems from <a href="https://www.northeastern.edu">Northeastern University</a> to widen my horizon of knowledge and polish my skills.</li>
+            </ul>
+        </div>
+
+        <div class="skills" id="skills">
+            <h1 class="heading">Skills</h1>
+
+            <hr>
+
+            <div class="content"></div>
+
+            <div class="progress">
+                <h3>Java <span>85%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>HTML <span>75%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Spring Boot <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Apache Kafka <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Python <span>75%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>CSS <span>70%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Microservices <span>85%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Junit <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Mockito <span>85%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Docker <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Kubernetes <span>75%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Design Patterns <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- certification section  -->
+
+    <section class="certification" id="certification">
+
+        <h1 class="heading">My Certifications</h1>
+
+        <hr>
+
+        <div class="content"></div>
+
+        <div class="box-container">
+
+            <div class="box" style="float: left;">
+                
+                <a target="_blank" href="images/Applied_Machine_Learning_in_python_Coursera.jpg">
+                    <img src="images/Applied_Machine_Learning_in_python_Coursera.jpg" alt="image" width="300" height="140">
+                </a>
+    
+                <figcaption>Coursera Certificate: Applied Machine Learning in Python</figcaption>
+            </div>
+
+            <div class="box" style="float: right;">
+               
+                <a target="_blank" href="images/AZ-900_Azure_Abhishek Nair.jpg">
+                    <img src="images/AZ-900_Azure_Abhishek Nair.jpg" alt="image" width="300" height="160">
+                </a>
+                <figcaption>Microsoft Certificate: AZ-900 : Azure Fundamentals</figcaption>
+            </div>
+
+            <div class = "certification-padding"></div>
+
+            <div class="box" style="float: left;">
+            
+                <a target="_blank" href="images/Data_Scientist's_Toolbox_Coursera.jpg">
+                    <img src="images/Data_Scientist's_Toolbox_Coursera.jpg" alt="image" width="300" height="160">
+                    
+                </a>
+                <figcaption>Coursera Certificate: Data Scientist's Toolbox </figcaption>
+            </div>
+            <div class="box" style="float: right;">
+            
+                <a target="_blank" href="images/Neural_Networks_and_deep_learning_coursera.jpg">
+                <img src="images/Neural_Networks_and_deep_learning_coursera.jpg" alt="image" width="300" height="140">
+                </a>
+                <figcaption>Coursera Certificate: Neural Networks and Deep Learning</figcaption>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- education section  -->
+
+    <section class="education" id="education">
+
+        <h1 class="heading">My Education</h1>
+
+        <hr>
+
+        <div class="content"></div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="year">2022 - 2024</div>
+                <h3>Northeastern University</h3>
+                <p>Related Coursework: Program Structures and Algorithms, Application Engineering and Development and Web Design and User Experience</p>
+            </div>
+
+            <div class="box">
+                <div class="year">2014 - 2018</div>
+                <h3>KJ Somaiya College of Engineering</h3>
+                <p>Related Coursework: Data Structures, Analysis of Algorithms, Operating Systems, Software Engineering, Computer Networks</p>
+            </div>
+
+            <div class="box">
+                <div class="year">2012 - 2014</div>
+                <h3>SIES College of Arts, Science and Commerce</h3>
+                <p>Related Coursework: Physics, Chemistry, Electronics-I, Electronics-II</p>
+            </div>
+
+            <div class="box">
+                <div class="year">2011 - 2012</div>
+                <h3>OLPS High School</h3>
+                <p>Related Coursework: History, Geography, English, Hindi, Marathi</p>
+            </div>
+
+        </div>
+
+    </section>
+
+        <!-- projects section  -->
+
+    <section class="projects" id="projects">
+
+        <h1 class="heading">My Projects</h1>
+
+        <hr>
+
+        <div class="content"></div>
+
+        <div class="box-container">
+            
+                <div class="box">
+                    <h3>1) Click-to-Cart</h3>
+                    <p>
+                        <ul>
+                            <li>Collaborated with 2 team members to build an application having 25 java classes, separated into 6 respective packages.</li>
+                            <li>Created a java swing application that assists users to shop for groceries from a specific nearest company located in their own city.</li>
+                            <li>Utilized Javax Mail for email verification and confirmation. Displayed delivery route and ETD on the maps using Google Maps API.</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="box">
+                    <h3>2) Pothole Detection using Accelerometer</h3>
+                    <p>
+                        <ul>
+                            <li>Built a prototype vehicle having sensors like an accelerometer to generate data with bumps/potholes and ridges etc.</li>
+                            <li>Analyzed data after data mining, data cleaning, standardizing, and data filtering with help of R and Python and detected potholes 
+                                with 75% accuracy by deploying Z-thresh, Z-Diff algorithm.</li>
+                        </ul>
+
+                    </p>
+                </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact section  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">Contact me</h1>
+
+        <hr>
+
+        <div class="content"></div>
+
+        <div class="row">
+
+            <form action="mailto:nairabhishek96@gmail.com" method="post" enctype="text/plain" id = "form">
+                <input type="text" class="box" placeholder="First Name" name="firstName">
+                <input type="text" class="box" placeholder="Last Name" name="lastName">
+                <input type="email" class="box" placeholder="Your Email" name="emailAddress">
+                <input type="text" class="box" placeholder="Your Project" name="projectName">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message" name="message"></textarea>
+                <button class="btn" type="button"  onclick="myFunction()" value="Submit"> Submit</button>
+            </form>
+
+            <div class="content">
+                <div class="icons">
+                    <h3>Address</h3>
+                    <p>Boston, USA - 02120</p>
+                </div>
+                <div class="icons">
+                    <h3>Email Address</h3>
+                    <p>nair.abhi@northeastern.edu</p>
+                </div>
+                <div class="icons">
+                    <h3>Phone Number</h3>
+                    <a href="tel: +8576939948"><p>+857-693-9948</p></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- content section ends -->
+
+<footer>
+    <small><i>Copyright &copy; 2023 All Rights Reserved</i></small>
+</footer>
+
+</body>
+</html>
